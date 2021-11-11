@@ -28,7 +28,7 @@ if (!isset($_SESSION['usuario'])) {
 </head>
 
 <body>
-    <?php $url = "http://" . $_SERVER['HTTP_HOST'] . "/sitioweb" ?>
+    <?php $url = "http://" . $_SERVER['HTTP_HOST'] ?>
     <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">BOUTIQUE MARU<span class="sr-only">(current)</span></a>
