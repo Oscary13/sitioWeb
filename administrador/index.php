@@ -48,17 +48,19 @@ if ($_POST) {
                         <form method="POST">
 
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Usuario</label>
+                                <label for="exampleInputEmail1">Usuario:</label>
                                 <input type="text" class="form-control" name="usuario" aria-describedby="emailHelp" placeholder="Escribe tu usuario...">
                             </div>
 
                             <div class="form-group">
-                                <label>Contraseña</label>
+                                <label>Contraseña:</label>
                                 <input type="password" class="form-control" name="contrasenia" placeholder="Escribe tu contraseña...">
                             </div>
+                            <br>
+                            <button type="submit" class="btn btn-primary ">Entrar al modo administrador</button>
+                            <br><br>
+                            <a id="wrapper" href="../index.php">Volver ...</a>
 
-
-                            <button type="submit" class="btn btn-primary">Entrar al modo administrador</button>
                         </form>
 
 

@@ -35,7 +35,10 @@
         </li>
         <li class="nav-item ">
         <a class="nav-link " href="nosotros.php">Nosostros</a>
-        </li>            
+        </li>
+        <li class="nav-item ">
+        <a class="nav-link " href="./administrador/index.php">Login</a>
+        </li>             
       </ul>
     </div>
   </nav>

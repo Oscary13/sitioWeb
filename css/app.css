@@ -28,6 +28,14 @@ a.btn-social,
     text-align:center;
     z-index:999;
 }
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.p {
+    text-align: center;
+  }
 .oculto {
     visibility: hidden;
 }
@@ -145,6 +153,16 @@ a.btn-social,
 {
     background-color: goldenrod;
 }
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .form {
+    width: 450px;
+  }
 .btn-w:hover
 {
     background-color: goldenrod;

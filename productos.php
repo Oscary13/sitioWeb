@@ -14,8 +14,13 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 <div class="card">
     <img class="card-img-top" src="./img/<?php echo $productos['imagen']?>" alt="">
     <div class="card-body">
-        <h4 class="card-title"><?php echo $productos['nombre']?></h4>
-        <a name="" id="" class="btn btn-primary" href="#" role="button">Ver más...</a>
+        <p><h4 class="card-title"><?php echo $productos['nombre']?></h4></p>
+        <p>Talla: <?php echo $productos['talla']?></p>
+        <p>Color: <?php echo $productos['color']?></p>
+        <p>Precio: <?php echo $productos['precio']?></p>
+        <p>Numero de prendas existentes en la boutique: <?php echo $productos['n_prendas']?></p>
+        <p></p>
+        
     </div>
 </div>
 </div>
