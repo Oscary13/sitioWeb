@@ -17,7 +17,7 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
         <p><h4 class="card-title"><?php echo $productos['nombre']?></h4></p>
         <p>Talla: <?php echo $productos['talla']?></p>
         <p>Color: <?php echo $productos['color']?></p>
-        <p>Precio: <?php echo $productos['precio']?></p>
+        <p>Precio: $<?php echo $productos['precio']?></p>
         <p>Numero de prendas existentes en la boutique: <?php echo $productos['n_prendas']?></p>
         <p></p>
         
