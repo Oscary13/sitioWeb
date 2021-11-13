@@ -30,7 +30,7 @@ if (!isset($_SESSION['usuario'])) {
 
 <body>
     <?php $url = "http://" . $_SERVER['HTTP_HOST'] ?>
-    <nav class="navbar navbar-expand navbar-dark bg-primary  ">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">BOUTIQUE MARU<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/inicio.php">inicio</a>
