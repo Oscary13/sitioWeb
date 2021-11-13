@@ -27,15 +27,34 @@ if (!isset($_SESSION['usuario'])) {
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
     <p class="oculto">------</p>
     <a class="navbar-brand" href="#">
-      <img src="logo.png" width="50" height="40" alt="">
+      <img src="../img/logo.png" width="50" height="40" alt="">
     </a>
-        <div class="nav navbar-nav">
-            <a class="nav-item nav-link active" href="#">BOUTIQUE MARU<span class="sr-only"></span></a>
-            <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/inicio.php">inicio</a>
-            <a class="nav-item nav-link" href="<?php echo $url; ?>">Ver sitio web</a>
-            <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/seccion/cerrar.php">Cerrar</a>
-        </div>
-    </nav>
+    <p>'</p>
+    <a class="navbar-brand" href="">BOUTIQUE MARU</a>
+    <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#opciones">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- logo -->
+    
+    
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse" id="opciones">   
+      <ul class="navbar-nav">
+        
+        <li class="nav-item ">
+        <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/inicio.php">inicio</a>
+        </li>
+        <li class="nav-item ">
+        <a class="nav-item nav-link" href="<?php echo $url; ?>">Ver sitio web</a>
+        </li>
+        <li class="nav-item ">
+        <a class="nav-item nav-link" href="<?php echo $url; ?>/administrador/seccion/cerrar.php">Cerrar</a>
+        </li>           
+      </ul>
+    </div>
+  </nav>
+    
     <div class="container">
         <br/>
         <div class="row ">

@@ -1,7 +1,5 @@
 <?php
-
 use Psy\ExecutionLoopClosure;
-
 include("../template/cabecera.php"); ?>
 <?php
 $txtID = (isset($_POST['txtID'])) ? $_POST['txtID'] : "";
