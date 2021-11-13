@@ -112,38 +112,37 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <div class="row">
 <div class="col-4">
-    <div class="card">
-        <div class="card-header">
-            Datos de los productos
+    <div class="card border-dark">
+        <div class="card-header bg-primary text-white fs-2 text-center"">
+            DATOS DEL PRODUCTO
         </div>
-
         <div class="card-body">
-            <form method="POST" enctype="multipart/form-data">
+            <form class="fs-5 text-dark" method="POST" enctype="multipart/form-data">
 
-                <div class="form-group">
+                <div class="form-group ">
                     <label for="txtID">ID:</label>
-                    <input required readonly type="text" class="form-control" value="<?php echo $txtID; ?>" name="txtID" id="txtID" placeholder="ingresa ID...">
+                    <input required readonly type="text" class="form-control border-dark" value="<?php echo $txtID; ?>" name="txtID" id="txtID" placeholder="ingresa ID...">
                 </div>
 
                 <div class="form-group">
                     <label for="txtNombre">Nombre:</label>
-                    <input required type="text" class="form-control" value="<?php echo $txtNombre; ?>" name="txtNombre" id="txtNombre" placeholder="ingresa Nombre del producto...">
+                    <input required type="text" class="form-control border-dark" value="<?php echo $txtNombre; ?>" name="txtNombre" id="txtNombre" placeholder="ingresa Nombre del producto...">
                 </div>
                 <div class="form-group">
                     <label for="txtTalla">Talla:</label>
-                    <input required type="text" class="form-control" value="<?php echo $txtTalla; ?>" name="txtTalla" id="txtTalla" placeholder="ingresa Talla del producto...">
+                    <input required type="text" class="form-control border-dark" value="<?php echo $txtTalla; ?>" name="txtTalla" id="txtTalla" placeholder="ingresa Talla del producto...">
                 </div>
                 <div class="form-group">
                     <label for="txtColor">Color:</label>
-                    <input required type="text" class="form-control" value="<?php echo $txtColor; ?>" name="txtColor" id="txtColor" placeholder="ingresa Color del producto...">
+                    <input required type="text" class="form-control border-dark" value="<?php echo $txtColor; ?>" name="txtColor" id="txtColor" placeholder="ingresa Color del producto...">
                 </div>
                 <div class="form-group">
                     <label for="txtPrecio">Precio:</label>
-                    <input required type="number" class="form-control" value="<?php echo $txtPrecio; ?>" name="txtPrecio" id="txtPrecio" placeholder="ingresa Precio del producto...">
+                    <input required type="number" class="form-control border-dark" value="<?php echo $txtPrecio; ?>" name="txtPrecio" id="txtPrecio" placeholder="ingresa Precio del producto...">
                 </div>
                 <div class="form-group">
                     <label for="txtPrendas">Numero de prendas existentes en la Boutique:</label>
-                    <input required type="number" class="form-control" value="<?php echo $txtN_prendas; ?>" name="txtN_prendas" id="txtN_prendas" placeholder="ingresa N_prendas del producto...">
+                    <input required type="number" class="form-control border-dark" value="<?php echo $txtN_prendas; ?>" name="txtN_prendas" id="txtN_prendas" placeholder="ingresa N_prendas del producto...">
                 </div>
                 <div class="form-group">
                     <label for="txtImagen">Imagen:</label>
@@ -154,13 +153,15 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
                     <img class="img-thumbnail rounded" src="../../img/<?php echo $txtImagen ?>" width="100" alt="">
                     <?php }?>
 
-                    <input  type="file" class="form-control" name="txtImagen" id="txtImagen" placeholder="ingresa ID...">
+                    <input  type="file" class="form-control border-dark" name="txtImagen" id="txtImagen" >
+                    <br>
                 </div>
 
                 <div class="btn-group" role="group" aria-label="">
-                    <button type="submit" name="accion" <?php echo($accion=="Seleccionar")?"disabled":"";?> value="Agregar" class="btn btn-success">Agregar</button>
-                    <button type="submit" name="accion" <?php echo($accion==!"Seleccionar")?"disabled":"";?> value="Modificar" class="btn btn-warning">Modificar</button>
-                    <button type="submit" name="accion" <?php echo($accion==!"Seleccionar")?"disabled":"";?> value="Cancelar" class="btn btn-info">Cancelar</button>
+                    <p></p>
+                    <button type="submit" name="accion" <?php echo($accion=="Seleccionar")?"disabled":"";?> value="Agregar" class="btn btn-primary">Agregar</button> <p class="oculto">--</p>
+                    <button type="submit" name="accion" <?php echo($accion==!"Seleccionar")?"disabled":"";?> value="Modificar" class="btn btn-primary"">Modificar</button> <p class="oculto">--</p>
+                    <button type="submit" name="accion" <?php echo($accion==!"Seleccionar")?"disabled":"";?> value="Cancelar" class="btn btn-danger">Cancelar</button> <p class="oculto">--</p>
 
 
                 </div>
@@ -175,39 +176,40 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 
 </div>
 <div class="col-md-8">
-    <table class="table table-bordered">
-        <thead>
+    <table class="text-center">
+        <thead class="text-center">
             <tr>
-                <th>ID:</th>
-                <th>Nombre:</th>
-                <th>Talla:</th>
-                <th>Color:</th>
-                <th>Precio:</th>
-                <th>Cantidad en almacen:</th>
-                <th>Imagen</th>
-                <th>Acciones</th>
+                <th class="bg-primary text-white text-center">ID:</th>
+                <th class="bg-primary text-white text-center">NOMBRE:</th>
+                <th class="bg-primary text-white text-center">TALLA:</th>
+                <th class="bg-primary text-white text-center">COLOR:</th>
+                <th class="bg-primary text-white text-center">PRECIO:</th>
+                <th class="bg-primary text-white text-center">NUM. PRENDAS EXIS:</th>
+                <th class="bg-primary text-white text-center">IMAGEN</th>
+                <th class="bg-primary text-white text-center">ACCIONES</th>
             </tr>
         </thead>
         <tbody>
             <?php
             foreach ($listaProductos as $producto) { ?>
-                <tr>
-                    <td><?php echo $producto['id'] ?></td>
-                    <td><?php echo $producto['nombre'] ?></td>          
-                    <td><?php echo $producto['talla'] ?></td>
-                    <td><?php echo $producto['color'] ?></td>
-                    <td><?php echo $producto['precio'] ?></td>
-                    <td><?php echo $producto['n_prendas'] ?></td>
-                    <td>
+                <tr class="fs-5 text-center text-dark">
+                    <th><?php echo $producto['id'] ?></th>
+                    <th><?php echo $producto['nombre'] ?></th>          
+                    <th><?php echo $producto['talla'] ?></th>
+                    <th><?php echo $producto['color'] ?></th>
+                    <th>$ <?php echo $producto['precio'] ?></th>
+                    <th><?php echo $producto['n_prendas'] ?></th>
+                    <th>
                      <img class="img-thumbnail rounded" src="../../img/<?php echo $producto['imagen'] ?>" width="100" alt="">   
-                    </td>
-                    <td>
-                        <form method="post">
+                    </th>
+                    <th>
+                        <form method="post" style="width:100%; height:100%">
                             <input type="hidden" name="txtID" id="txtID" value="<?php echo $producto['id'] ?>">
-                            <input type="submit" name="accion" value="Borrar" class="btn btn-danger">
+                            <input type="submit" name="accion" value="Borrar" class="btn btn-danger btn-center">
+                            <br><br>
                             <input type="submit" name="accion" value="Seleccionar" class="btn btn-primary">
                         </form>
-                    </td>
+                    </th>
                 </tr>
             <?php } ?>
 

@@ -20,6 +20,7 @@ if (!isset($_SESSION['usuario'])) {
     <link rel="icon" href="../logo.ico">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/app.css">
+    
    </head>
 
 <body>
