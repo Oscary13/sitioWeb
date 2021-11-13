@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-dark contenedor">
     <p class="oculto">------</p>
     <a class="navbar-brand" href="#">
       <img src="img/logo.png" width="50" height="40" alt="">
