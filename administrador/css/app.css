@@ -386,9 +386,13 @@ a.btn-social,
 {
     background-color: #400191;
 }
+
 .btn-yahoo:hover
 {
     background-color: #5601c4;
+}
+.div{
+    text-align:center;
 }
 .btn-yelp
 {

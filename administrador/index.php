@@ -16,14 +16,14 @@ if ($_POST) {
 <html lang="en">
 
 <head>
-    <title>Administrador</title>
+    <title>ADMINISTRADOR</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <link rel="icon" href="../logo.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/app.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -35,9 +35,9 @@ if ($_POST) {
             </div>
             <div class="col-md-4">
                 <br><br><br>
-                <div class="card">
-                    <div class="card-header">
-                        Login
+                <div class="card border-dark">
+                    <div class="card-header text-center fs-4 border-dark bg-primary text-white">
+                        LOGIN DE ADMINISTRADOR
                     </div>
 
                     <div class="card-body">
@@ -46,21 +46,25 @@ if ($_POST) {
                             <?php echo $mensaje; ?>
                         </div>
                         <?php }?>
-                        <form method="POST">
+                        <form  method="POST">
 
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Usuario:</label>
+                                <label class=" text-center fs-4" for="exampleInputEmail1">Usuario:</label>
                                 <input type="text" class="form-control" name="usuario" aria-describedby="emailHelp" placeholder="Escribe tu usuario...">
                             </div>
-
+                            <br>
                             <div class="form-group">
-                                <label>Contraseña:</label>
+                                <label class=" text-center fs-4">Contraseña:</label>
                                 <input type="password" class="form-control" name="contrasenia" placeholder="Escribe tu contraseña...">
                             </div>
                             <br>
-                            <button type="submit" class="btn btn-primary ">Entrar al modo administrador</button>
-                            <br><br>
-                            <a id="wrapper" href="../index.php">Volver ...</a>
+                           <div class="div">
+                           <button type="submit" class="btn btn-primary">Entrar al modo administrador</button>
+                           <br><br>
+                           <a class="fs-5" id="wrapper" href="../index.php">Volver ...</a>
+                           </div>
+                            
+                            
 
                         </form>
 
