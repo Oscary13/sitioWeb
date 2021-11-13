@@ -1,5 +1,5 @@
 <?php include("template/cabecera.php"); ?>
-<?php 
+<?php
 include("administrador/config/bd.php");
 
 $sentenciaSQL = $conexion->prepare("SELECT * FROM productos");
@@ -9,20 +9,24 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 
-<?php foreach ($listaProductos as $productos) {?>
+<?php foreach ($listaProductos as $productos) { ?>
     <div class="col-md-3">
-<div class="card">
-    <img class="card-img-top" src="./img/<?php echo $productos['imagen']?>" alt="">
-    <div class="card-body">
-        <p><h4 class="card-title"><?php echo $productos['nombre']?></h4></p>
-        <p>Talla: <?php echo $productos['talla']?></p>
-        <p>Color: <?php echo $productos['color']?></p>
-        <p>Precio: $<?php echo $productos['precio']?></p>
-        <p>Numero de prendas existentes en la boutique: <?php echo $productos['n_prendas']?></p>
-        <p></p>
-        
+        <div class="card border-dark">
+            <img class="card-img-top" src="./img/<?php echo $productos['imagen'] ?>" alt="">
+            <div class="card-body">
+                <p>
+                <h4 class="card-title text-center"><?php echo $productos['nombre'] ?></h4>
+                </p>
+                <p>Talla: <strong><?php echo $productos['talla'] ?></strong></p>
+                <p>Color: <strong><?php echo $productos['color'] ?></strong></p>
+                <p>Precio: <strong>$<?php echo $productos['precio'] ?></strong></p>
+                <p>Numero de prendas existentes en la boutique: <strong><?php echo $productos['n_prendas'] ?></strong></p>
+                <p></p>
+
+            </div>
+            
+        </div>
     </div>
-</div>
-</div>
+    
 <?php }?>
 <?php include("template/pie.php"); ?>

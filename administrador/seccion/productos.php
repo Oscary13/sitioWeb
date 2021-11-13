@@ -115,7 +115,7 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
             <div class="card border-dark">
                 <div class="card-header bg-primary text-white fs-2 text-center"">
             DATOS DEL PRODUCTO
@@ -188,7 +188,7 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 
 
         </div>
-        <div class="col-8">
+        <div class="col-md-8">
             <table class="text-center">
                 <thead class="text-center">
                     <tr>

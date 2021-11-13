@@ -18,15 +18,17 @@
     </a>
     <p>'</p>
     <a class="navbar-brand" href="">BOUTIQUE MARU</a>
-    <button class="navbar-toggler navbar-right" type="button" data-toggle="collapse" data-target="#opciones">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler navbar-center div" type="button" data-toggle="collapse" data-target="#opciones">
+      <span class="navbar-toggler-icon"> </span>
+      
     </button>
+    <p class="oculto">------</p>
     
     <!-- logo -->
     
     
     <!-- enlaces -->
-    <div class="collapse navbar-collapse" id="opciones">   
+    <div class="collapse navbar-collapse div" id="opciones">   
       <ul class="navbar-nav">
         
         <li class="nav-item ">
@@ -43,6 +45,7 @@
         </li>             
       </ul>
     </div>
+  
   </nav>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
