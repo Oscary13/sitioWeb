@@ -6,7 +6,7 @@
                 <img width="700" src="img/c.png" class="img-thumbnail" >
                 <p>Consulta nuestros productos</p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="productos.php" role="button">Ver mas..</a>
+                    <a class="btn btn-primary btn-lg" href="productos.php" role="button">Ver más..</a>
                 </p>
             </div>
 <?php include("template/pie.php"); ?>

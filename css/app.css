@@ -154,7 +154,7 @@ a.btn-social,
 }
 .btn-w
 {
-    background-color: goldenrod;
+    background-color: green;
 }
 .abs-center {
     display: flex;
@@ -168,7 +168,7 @@ a.btn-social,
   }
 .btn-w:hover
 {
-    background-color: goldenrod;
+    background-color: green;
 }
 .btn-facebook:hover
 {
