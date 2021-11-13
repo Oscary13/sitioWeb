@@ -1,5 +1,5 @@
 <?php include("template/cabecera.php"); ?>
-<div class="row jumbotron">
+<div class="row ">
     <h1 class="display-3"><strong>NOSOTROS:</strong></h1>
     <p></p>
     <p class="text-dark">Boutique Maru, es un comercio pequeño el
@@ -9,11 +9,16 @@
     <br>
     <br>
     <div class="col-md-7">
+        <br>
         <h2 class="text-center">Ubicación de BOUTIQUE MARU</h2>
         <hr>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d939.4521310384441!2d-98.93291116611583!3d19.63548214940897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ec0300ef94fb%3A0x2b36eadd6d3c9d1!2sMaru%20Boutique!5e0!3m2!1ses!2smx!4v1636508404063!5m2!1ses!2smx" width="570" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d939.4521310384441!2d-98.93291116611583!3d19.63548214940897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ec0300ef94fb%3A0x2b36eadd6d3c9d1!2sMaru%20Boutique!5e0!3m2!1ses!2smx!4v1636508404063!5m2!1ses!2smx" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
     </div>
     <div class="col-md-5">
+        <br>
         <h2 class="text-center">CONTACTANOS: </h2>
         <hr>
         <h5>Ubicación: <strong>10 C. Cam. Viejo a las

@@ -70,7 +70,7 @@ switch ($accion) {
             header("Location: productos.php");
             $sentenciaSQL->execute();
         }
-
+        header("Location: productos.php");
 
         break;
 
@@ -112,7 +112,7 @@ $sentenciaSQL = $conexion->prepare("SELECT * FROM productos");
 $sentenciaSQL->execute();
 $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<div class="container-fluid">
+<div class="container">
 
     <div class="row">
         <div class="col-md-4">
@@ -166,28 +166,32 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 
                             <input type="file" class="form-control border-dark" name="txtImagen" id="txtImagen">
                             <br>
+                            <div class="div" role="group" aria-label="">
+                            <p></p>
+                            <button type="submit" name="accion" <?php echo ($accion == "Seleccionar") ? "disabled" : ""; ?> value="Agregar" class="btn btn-primary">Agregar</button>
+                            <label class="oculto">--</label>
+                            <button type="submit" name="accion" <?php echo ($accion == !"Seleccionar") ? "disabled" : ""; ?> value="Modificar" class="btn btn-primary"">Modificar</button> <label class=" oculto">--</label>
+                                <button type="submit" name="accion" <?php echo ($accion == !"Seleccionar") ? "disabled" : ""; ?> value="Cancelar" class="btn btn-danger">Cancelar</button>
+                            </div>
                         </div>
 
                         <div class="btn-group" role="group" aria-label="">
-                            <p></p>
-                            <button type="submit" name="accion" <?php echo ($accion == "Seleccionar") ? "disabled" : ""; ?> value="Agregar" class="btn btn-primary">Agregar</button>
-                            <p class="oculto">--</p>
-                            <button type="submit" name="accion" <?php echo ($accion == !"Seleccionar") ? "disabled" : ""; ?> value="Modificar" class="btn btn-primary"">Modificar</button> <p class=" oculto">--</p>
-                                <button type="submit" name="accion" <?php echo ($accion == !"Seleccionar") ? "disabled" : ""; ?> value="Cancelar" class="btn btn-danger">Cancelar</button>
-                                <p class="oculto">--</p>
+                            
 
 
                         </div>
                     </form>
+                    
                 </div>
 
 
             </div>
 
-
+            <br> <br>
 
 
         </div>
+        
         <div class="col-md-8">
             <table class="text-center">
                 <thead class="text-center">
@@ -232,4 +236,5 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
     </div>
 
 </div>
+
 <?php include("../template/pie.php"); ?>
