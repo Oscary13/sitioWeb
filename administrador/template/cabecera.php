@@ -58,4 +58,4 @@ if (!isset($_SESSION['usuario'])) {
     
     <div class="container">
         <br/>
-        <div class="row ">
+        <div class="row">
