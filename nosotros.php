@@ -2,9 +2,9 @@
 <div class="row ">
     <h1 class="display-3"><strong>NOSOTROS:</strong></h1>
     <p></p>
-    <p class="text-dark">Boutique Maru, es un comercio pequeño el
+    <p class="text-dark fs-5"><strong>Boutique Maru, es un comercio pequeño el
         cual está especializada en la venta de productos tales como ropa y
-        accesorios enfocados en las mujeres. </p>
+        accesorios enfocados en las mujeres.</strong> </p>
     <hr class="my-2">
     <br>
     <br>

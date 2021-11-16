@@ -28,7 +28,7 @@ if (!isset($_SESSION['usuario'])) {
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
     <p class="oculto">------</p>
     <a class="navbar-brand" href="#">
-      <img src="../img/logo.png" width="50" height="40" alt="">
+      <img src="../img/logoo.png" width="100" alt="">
     </a>
     <p>'</p>
     <a class="navbar-brand" href="">BOUTIQUE MARU</a>
