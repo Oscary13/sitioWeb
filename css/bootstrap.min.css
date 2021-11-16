@@ -12,7 +12,7 @@
  */
 :root {
   --bs-blue: #007bff;
-  --bs-indigo: rgb(219, 179, 186);
+  --bs-indigo: #593196;
   --bs-purple: #593196;
   --bs-pink: #e83e8c;
   --bs-red: #fc3939;
@@ -33,7 +33,7 @@
   --bs-gray-700: #444;
   --bs-gray-800: #343a40;
   --bs-gray-900: #17141f;
-  --bs-primary: rgb(219, 179, 186);
+  --bs-primary: #593196;
   --bs-secondary: #a991d4;
   --bs-success: #13b955;
   --bs-info: #009cdc;
@@ -7283,10 +7283,10 @@ fieldset:disabled .btn {
 }
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: pink;
+  background-color: #593196;
 }
 .bg-rosa{
-    background-color: pink;
+    background-color: #593196;
 }
 .bg-secondary {
   --bs-bg-opacity: 1;
