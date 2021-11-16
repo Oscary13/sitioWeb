@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOUTIQUE MARU</title>
     <link rel="icon" href="logo.ico">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/app.css">
 
 </head>
 <body>
+  
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
     <p class="oculto">------</p>
     <a class="navbar-brand" href="#">
       <img src="img/logoo.png" width="100" alt="">
     </a>
-    <p>'</p>
+    <p></p>
     <a class="navbar-brand" href="">BOUTIQUE MARU</a>
     <button class="navbar-toggler navbar-center div" type="button" data-toggle="collapse" data-target="#opciones">
       <span class="navbar-toggler-icon"> </span>
