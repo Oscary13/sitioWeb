@@ -124,7 +124,7 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 
                         <div class="form-group ">
                             <label for="txtID">ID:</label>
-                            <input required readonly type="text" class="form-control border-dark" value="<?php echo $txtID; ?>" name="txtID" id="txtID" placeholder="ingresa ID...">
+                            <input required readonly type="text" class="form-control border-dark" value="<?php echo $txtID; ?>" name="txtID" id="txtID" placeholder="El ID es incrementable">
                             <br>
                         </div>
 
