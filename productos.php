@@ -10,7 +10,9 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 
 
 <?php foreach ($listaProductos as $productos) { ?>
+    
     <div class="col-md-3">
+        <br>
         <div class="card border-dark">
             <img class="card-img-top" src="./img/<?php echo $productos['imagen'] ?>" alt="">
             <div class="card-body">
@@ -27,6 +29,5 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
             
         </div>
     </div>
-    
 <?php }?>
 <?php include("template/pie.php"); ?>
