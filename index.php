@@ -7,7 +7,8 @@
                 <br><br>
                 <p class="fs-5"><strong>Consulta nuestros productos</strong></p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="productos.php" role="button">Ver más..</a>
                 </p>
+                <br>
+                
             </div>
 <?php include("template/pie.php"); ?>

@@ -2,39 +2,39 @@
 <br>
 </div>
 <br><br>
-<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+<nav class=" navbar-dark bg-primary">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 text-center">
+                <br><br>
                 <a class="navbar-brand" href="#">
-                    <img src="img/logoo.png" width="100" alt="">
+                    <img src="img/logoo.png" width="200" alt="">
                 </a>
-                <p></p>
-                <a class="navbar-brand" href="">BOUTIQUE MARU</a>
+                <br>
+                <br>
+                <!-- <a href="./administrador/index.php">xD</a> -->
+                <!-- <ul>
+                     <button class="btnobb" onclick="window.location.href='./administrador/index.php'"></button>
+
+                </ul> -->
             </div>
-            <div class="col-md-3">
-                <ul class="navbar-brand">
-                    <h4 class="">Products</h4>
-                    <li><a class="text-white" href="#">Mens</a></li>
-                    <li><a class="text-white" href="#">Womens</a></li>
-                    <li><a class="text-white" href="#">Youth</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="navbar-brand">
-                    <h4 class="">Products</h4>
-                    <li><a class="text-white" href="#">Mens</a></li>
-                    <li><a class="text-white" href="#">Womens</a></li>
-                    <li><a class="text-white" href="#">Youth</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul class="navbar-brand">
-                    <h5>Facebook: <strong>Boutique Maru </strong><label class="oculto">, ,,,,............,,,</label> <a href="https://www.facebook.com/Boutique-Maru-110970050820907" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a></h5>
-                    <h5>Numero telefonico: <strong>5537244530</strong> <label class="oculto">, ,,,,,,,</label> <a href="https://api.whatsapp.com/send?phone=5537244530" target="_blank" target="_blank" class="btn-social btn-w"><i class="fa fa-whatsapp"></i></a></h5>
+            <div class="col-md-5 text-center">
+                <ul class="navbar-brand text-center">
+                    <br>
+                <p class="fs-8 text-center">Contactos:
+                    <p class="fs-8 text-center">Facebook:<strong> Boutique Maru</strong>
+                    </p>
+                    <p class="fs-8 text-center">Numero telefonico:<strong> 5537244530</strong>
+                    </p>
 
                 </ul>
             </div>
+            <div class="col-md-4 text-center">
+            <br>
+                <p class="fs-5 text-white text-center"><br>Dirección: <br><br> <strong> 10 C. Cam. Viejo a las Pirámides Santa Catarina, Estado de México.</strong></p>
+
+            </div>
+
         </div>
         <!-- logo -->
         <!-- enlaces -->

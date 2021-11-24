@@ -417,3 +417,12 @@ a.btn-social,
 {
     background-color: #6bd079;
 }
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .btnobb{
+    justify-content: center;
+  }
