@@ -6,16 +6,16 @@
     <div class="slider">
         <ul class="ul">
             <li class="li">
-                <img src="img/co.png">
+                <img src="img/co.png" alt="Responsive image">
             </li>
             <li class="li">
-                <img src="img/obb.png">
+                <img src="img/obb.png" alt="Responsive image">
             </li>
             <li class="li">
-                <img src="img/obb2.png">
+                <img src="img/obb2.png" alt="Responsive image">
             </li>
             <li class="li">
-                <img src="img/co.png">
+                <img src="img/co.png" alt="Responsive image">
             </li>
         </ul>
     </div>
