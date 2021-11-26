@@ -10,7 +10,7 @@ $listaProductos = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 
 
 <?php foreach ($listaProductos as $productos) { ?>
-    
+    <br><br>
     <div class="col-md-3">
         <br>
         <div class="card border-dark">
