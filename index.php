@@ -15,7 +15,7 @@
                 <img src="img/obb2.png" alt="Responsive image">
             </li>
             <li class="li">
-                <img src="img/co.png" alt="Responsive image">
+                <img src="img/obb3.png" alt="Responsive image">
             </li>
         </ul>
     </div>
